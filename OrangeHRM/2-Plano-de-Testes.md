@@ -117,4 +117,4 @@ Realizar a verificação manual dos principais requisitos funcionais do sistema 
 * Casos de Teste (.md ou planilha)
 * Evidências de Execução (Prints organizados por RF)
 * Registro de Bugs (se houver)
-* Relatório FInal de Execução
+* Relatório Final de Execução
