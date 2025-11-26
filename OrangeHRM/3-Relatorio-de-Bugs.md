@@ -46,7 +46,7 @@
 
 ---
 
-#### Bug 02: Página de login atualiza ao ocorrer erro de autenticação
+### **Bug 02: Página de login atualiza ao ocorrer erro de autenticação**
 
 | **ID**     | **Descrição**                                                                                                          |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -83,7 +83,7 @@
 
 ---
 
-#### Bug 03: Não há mensagem clara de sucesso ou falha no login
+### **Bug 03: Não há mensagem clara de sucesso ou falha no login**
 
 | **ID**     | **Descrição**                                                                                                     |
 | ---------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -118,3 +118,79 @@
 | :------------------------------------------: |
 | [Vídeo](https://jam.dev/c/7330a271-dce8-42d4-b51d-a83d6a54e345)  |
 
+---
+
+### **Bug 04: Não é possível aplicar licença de férias - "No Leave Types with Leave Balance"**
+
+| **ID**     | **Descrição**                                                                                                                |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| BUG-004    | Ao tentar aplicar uma licença no módulo de férias, nenhuma opção de licença é exibida, impossibilitando a solicitação.        |
+
+| **Severidade do Bug** | **Prioridade de Correção** | **Status** |
+| :-------------------: | :------------------------: | :--------: |
+|        Alta            |           Alta             |   Aberto   |
+
+| **Passo a passo para simular o bug**                     |
+| -------------------------------------------------------- |
+| 1. Acessar o menu "Leave"                                |
+| 2. Clicar em "Apply"                                     |
+| 3. Verificar se aparecem tipos de licença disponíveis    |
+
+|                      **Comportamento Esperado**                       |                        **Comportamento Obtido**                         |
+| :-------------------------------------------------------------------: | :----------------------------------------------------------------------: |
+| Deve-se exibir uma lista de tipos de licença com saldo disponível     | A mensagem "No Leave Types with Leave Balance" é exibida e nada é listado |
+
+| **Ambiente**              |
+| ------------------------  |
+| Ambiente de homologação.  |
+| Desktop com Windows 11.   |
+|  Google Chrome v.142.0.74 |
+| OrangeHRM Demo            |
+
+| **Funcionalidade Afetada** |               **Caso de Teste Relacionado**               |
+| :------------------------: | :-------------------------------------------------------: |
+|    Férias (Leave Module)   | C04-CT01: Aplicar licença de férias com dados válidos     |
+
+|              **Evidência(s)**              |
+| :----------------------------------------: |
+| [Vídeo](https://jam.dev/c/8e0605be-16b8-43d5-bb3e-f4c78034af67) |
+
+---
+
+### **Bug 05: Ícone de “ver senha” não é apresentado no campo do formulário de criação de funcionário**
+
+| **ID**     | **Descrição**                                                                                                                                                  |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| BUG-005    | No formulário de criação de funcionário no módulo PIM, o ícone de "ver senha" não é apresentado no campo de senha ou confirmação de senha.             |
+
+| **Severidade do Bug** | **Prioridade de Correção** | **Status** |
+| :-------------------: | :------------------------: | :--------: |
+|         Média         |           Alta             |   Aberto   |
+
+| **Passo a passo para simular o bug**                             |
+| ---------------------------------------------------------------- |
+| 1. Navegar até o módulo "PIM"                                    |
+| 2. Clicar em "Add Employee"                                      |
+| 3. Marcar a opção "Create Login Details"                         |
+| 4. Observar o campo de senha e confirmação de senha, ícone não apresentado    |
+
+|                      **Comportamento Esperado**                      |                         **Comportamento Obtido**                          |
+| :------------------------------------------------------------------: | :------------------------------------------------------------------------: |
+| O ícone de "ver senha" deve permanecer visível e funcional           | O ícone não é apresentado, impedindo visualização da senha digitada |
+
+| **Ambiente**              |
+| ------------------------  |
+| Ambiente de homologação.  |
+| Desktop com Windows 11.   |
+|  Google Chrome v.142.0.74 |
+| OrangeHRM Demo            |
+
+| **Funcionalidade Afetada** |            **Caso de Teste Relacionado**             |
+| :------------------------: | :--------------------------------------------------: |
+| Cadastro de funcionário    | C03-CT01: Criar novo funcionário com dados válidos   |
+
+|               **Evidência(s)**               |
+| :------------------------------------------: |
+| [Vídeo](https://jam.dev/c/7c8cedf2-330b-435c-8b57-69bb564aae65) |
+
+---
