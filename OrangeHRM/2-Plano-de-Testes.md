@@ -79,9 +79,9 @@ Realizar a verificação manual dos principais requisitos funcionais do sistema 
 | --------------------------------- | ----------- | ----------- |
 | Planejamento de Testes            | 11/11/2025  | 11/11/2025  |
 | Criação de Casos de Teste         | 11/11/2025  | 12/11/2025  |
-| Execução dos Testes Manuais       | 12/11/2025  | 14/11/2025  |
-| Registro e Report de Bugs         | 12/11/2025  | 14/11/2025  |
-| Encerramento e Evidências         | 15/11/2025  | 15/11/2025  |
+| Execução dos Testes Manuais       | 12/11/2025  | 16/11/2025  |
+| Registro e Report de Bugs         | 12/11/2025  | 18/11/2025  |
+| Encerramento e Evidências         | 15/11/2025  | 20/11/2025  |
 
 ---
 
