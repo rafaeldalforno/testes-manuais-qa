@@ -2,9 +2,9 @@
 
 **Software:** OrangeHRM
 
-**QA responsável:** Miguel Luis
+**QA responsável:** Rafael Dal Forno
 
-**Data:** 12.05.25
+**Data:** 10.11.25
 
 ---
 
